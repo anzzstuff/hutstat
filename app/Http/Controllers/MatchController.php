@@ -18,21 +18,11 @@ class MatchController extends Controller
         $this->middleware('auth');
     }
 
-    /**
-     * Show recent matches.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         return view('matches.matches');
     }
 
-    /**
-     * Show recent matches.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function add()
     {
         return view('matches.addmatch');

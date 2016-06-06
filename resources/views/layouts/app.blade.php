@@ -40,7 +40,7 @@
 
                 <!-- Branding Image -->
                 <a class="navbar-brand" href="{{ url('/') }}">
-                    NHL HUT Stat Tracker
+                    HUT Stat Tracker
                 </a>
             </div>
 
