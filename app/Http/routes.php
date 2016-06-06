@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/stats', 'StatController@index');
+Route::get('/matches', 'MatchController@index');
+Route::get('/matches/add', 'MatchController@add');

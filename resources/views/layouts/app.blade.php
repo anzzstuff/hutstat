@@ -49,6 +49,8 @@
                 @if (!Auth::guest())
                 <ul class="nav navbar-nav">
                     <li><a href="{{ url('/stats') }}">Stats</a></li>
+                    <li><a href="{{ url('/matches') }}">Matches</a></li>
+                    <li><a href="{{ url('/matches/add') }}">Add match</a></li>
                 </ul>
                 @endif
 
