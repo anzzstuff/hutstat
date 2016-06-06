@@ -8,7 +8,7 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Your Application's Landing Page.
+                    This is a web app for tracking NHL HUT team's player statistics.
                 </div>
             </div>
         </div>
