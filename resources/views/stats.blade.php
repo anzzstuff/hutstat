@@ -3,14 +3,14 @@
 @section('content')
 <div class="container">
     <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Stats</div>
-
-                <div class="panel-body">
-                    Here go the stats
-                </div>
-            </div>
+        <div class="col-md-12 col-md-offset-0">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#">Forwards</a></li>
+                <li role="presentation"><a href="#">Defenders</a></li>
+                <li role="presentation"><a href="#">Goalies</a></li>
+                <li role="presentation"><a href="#">General</a></li>
+            </ul>            
+             Here go the stats
         </div>
     </div>
 </div>
