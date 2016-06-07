@@ -1,11 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<style>
-.margin-bottom-05 {
-    margin-bottom: 5px;
-}
-</style>
 <form class="form-inline">
 <div class="container">
     <div class="row">
@@ -72,6 +67,18 @@
 
                 <div class="panel-body">
                     Here go defenders
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <div class="row">
+        <div class="col-md-12 col-md-offset-0">
+            <div class="panel panel-default">
+                <div class="panel-heading">Goalie</div>
+                
+                <div class="panel-body">
+                    Here go the goalie
                 </div>
             </div>
         </div>        

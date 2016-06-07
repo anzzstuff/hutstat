@@ -25,6 +25,7 @@ class StatController extends Controller
      */
     public function index()
     {
-        return view('stats');
+        $data=array('activePage'=>'stats');
+        return view('stats',$data);
     }
 }

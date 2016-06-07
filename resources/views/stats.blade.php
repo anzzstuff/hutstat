@@ -8,7 +8,7 @@
                 <li role="presentation" class="active"><a href="#">Forwards</a></li>
                 <li role="presentation"><a href="#">Defenders</a></li>
                 <li role="presentation"><a href="#">Goalies</a></li>
-                <li role="presentation"><a href="#">General</a></li>
+                <li role="presentation"><a href="#">More stats</a></li>
             </ul>            
              Here go the stats
         </div>

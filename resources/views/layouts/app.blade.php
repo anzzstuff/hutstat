@@ -14,18 +14,8 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/app.css">
     {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
-
-    <style>
-        body {
-            font-family: 'Lato';
-            padding-top: 70px;
-        }
-
-        .fa-btn {
-            margin-right: 6px;
-        }
-    </style>
 </head>
 <body id="app-layout">
     <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -50,12 +40,11 @@
                 <!-- Left Side Of Navbar -->
                 @if (!Auth::guest())
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="{{ url('/stats') }}">Stats</a></li>
-                    <li><a href="{{ url('/matches') }}">Matches</a></li>
-                    <li><a href="{{ url('/matches/add') }}">Add match</a></li>
+                    <li class="{{ ($activePage=='stats') ? "active" : '' }}"><a href="{{ url('/stats') }}">Stats</a></li>
+                    <li class="{{ ($activePage=='matches') ? "active" : '' }}"><a href="{{ url('/matches') }}">Matches</a></li>
+                    <li class="{{ ($activePage=='addmatch') ? "active" : '' }}"><a href="{{ url('/matches/add') }}">Add match</a></li>
                 </ul>
                 @endif
-
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->
