@@ -32,6 +32,12 @@
                         <label for="div">Opponent shots:</label> 
                         <input type="text" class="form-control" id="div" size="1" maxlength="2">
                     </div>
+                    <div class="checkbox form-group col-md-3">
+                        <label>
+                            <input type="checkbox" class="form-control" id="overtime" style="margin:0px !important;"> 
+                            <strong>Match went to overtime</strong>
+                        </label>
+                    </div>
                 </div>
                 </div>
             </div>
