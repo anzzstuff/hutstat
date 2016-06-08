@@ -20,13 +20,13 @@ class MatchController extends Controller
 
     public function index()
     {
-        $data=array('activePage'=>'matches');
+        $data = array('activePage'=>'matches');
         return view('matches.matches', $data);
     }
 
     public function add()
     {
-        $data=array('activePage'=>'addmatch');
+        $data = array('activePage'=>'addmatch');
         return view('matches.addmatch', $data);
     }    
 }

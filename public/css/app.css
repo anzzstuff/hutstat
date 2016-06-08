@@ -1,6 +1,7 @@
 body {
     font-family: 'Lato';
     padding-top: 70px;
+    padding-bottom: 50px;
 }
 
 .fa-btn {
@@ -8,4 +9,18 @@ body {
 }
 .margin-bottom-05 {
     margin-bottom: 5px;
+}
+input[type="checkbox"] {
+    box-shadow: none !important;
+}
+.no-padding-tb {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;    
+}
+.top-padding {
+    padding-top: 8px !important;
+    padding-bottom: 3px !important;
+}
+.bg-green {
+    background-color: #E3FCE6;
 }

@@ -19,13 +19,13 @@ class StatController extends Controller
     }
 
     /**
-     * Show the application dashboard.
+     * Show the stats page.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $data=array('activePage'=>'stats');
-        return view('stats',$data);
+        $data = array('activePage'=>'stats');
+        return view('stats', $data);
     }
 }
